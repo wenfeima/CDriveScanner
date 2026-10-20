@@ -1,0 +1,27 @@
+# 历史版本存档目录
+_旧版本/
+
+# 只放行当前发布版 exe（升版本时同步改这一行）
+*.exe
+!C盘空间扫描器_v1.4.exe
+
+# Python
+__pycache__/
+*.py[cod]
+*.spec
+.pytest_cache/
+
+# 打包中间产物
+build/
+dist/
+
+# 本机临时/备份
+*.bak
+*.bak_*
+*.log
+v2ray_watchdog.log
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store
