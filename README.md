@@ -24,11 +24,14 @@ Windows 桌面小工具：扫描磁盘目录，按占用大小列出子文件夹
 
 ## 快速开始
 
-1. 下载 `C盘空间扫描器_v1.4.exe`
+1. 从 [Releases v1.4](https://github.com/wenfeima/CDriveScanner/releases/tag/v1.4) 下载 `CDriveScanner_v1.4.exe`
 2. 双击运行，默认扫描 `C:\`
 3. 列表按占用排序，点第一列方框勾选
 4. 点「打开文件夹」确认内容 → 点「删除选中（回收站）」
 
+> 仓库根目录里也有同名 exe（`C盘空间扫描器_v1.4.exe`）。
+> Release 资产名必须是纯 ASCII（GitHub 会自动净化非 ASCII 字符），所以 Release 上叫 `CDriveScanner_v1.4.exe`。
+>
 > 删除走 `SHFileOperation` + `FOF_ALLOWUNDO`，进回收站可还原，不会永久删除。
 
 ## 界面说明
